@@ -2342,6 +2342,9 @@ input[type=number] {
 .z-\[1\] {
   z-index: 1;
 }
+.z-\[999999\] {
+  z-index: 999999;
+}
 .order-1 {
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
@@ -6179,7 +6182,7 @@ body::before {
        -o-animation: Triangle 6s linear infinite;
           animation: Triangle 6s linear infinite;
 }
-.preloader::nth-child(1) {
+.preloader:nth-child(1) {
   --angle:0deg;
   background: #67EC9C;
   -webkit-animation-delay: 1s;
@@ -6189,7 +6192,7 @@ body::before {
 }
 .preloader:nth-child(2) {
   --angle:90deg;
-  background: #427F42;
+  background: #B5CD21;
   -webkit-animation-delay: 0.5s;
      -moz-animation-delay: 0.5s;
        -o-animation-delay: 0.5s;
@@ -6310,12 +6313,12 @@ body.loaded {
 body.loaded .preloader-wrap {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  height: 0;
   visibility: hidden;
-  -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
-  -o-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
-  -moz-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -moz-transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  height: 0;
 }
 @media (min-width: 576px) {
 
