@@ -585,11 +585,11 @@ if (document.querySelector('.investment-tab')) {
   const tabContentImage = document.getElementById('investment-tab-image');
   
   const tabImages = {
-      'venture-capital': './assets/img/thumb/Venture Capital.jpg',
-      'asset-management': './assets/img/thumb/Asset Management.jpg',
-      'private-equity': './assets/img/thumb/Private Equity.jpg',
-      'real-estate': './assets/img/thumb/Real Estate Funds.jpg',
-      'business-funds': './assets/img/thumb/Business Funds.jpg',
+      'venture-capital': './assets/img/thumb/venture-capital.jpg',
+      'asset-management': './assets/img/thumb/asset-management.jpg',
+      'private-equity': './assets/img/thumb/private-equity.jpg',
+      'real-estate': './assets/img/thumb/real-estate-funds.jpg',
+      'business-funds': './assets/img/thumb/business-funds.jpg',
   };
   
   const handleTabClick = (event) => {
